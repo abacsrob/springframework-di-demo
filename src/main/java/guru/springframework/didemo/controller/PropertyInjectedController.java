@@ -8,20 +8,15 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class PropertyInjectedController {
 
-//    @Autowired
-//    @Qualifier("greetingServiceImpl")
-//    public GreetingService greetingService;
-
     @Autowired
-    public GreetingService greetingServiceImpl;
+    @Qualifier("greetingServiceImpl")
+    public GreetingService greetingService;
 
     public String greet() {
-//        return greetingService.getGreeting();
-        return greetingServiceImpl.getGreeting();
+        return greetingService.getGreeting();
     }
 
     public GreetingService getGreetingService() {
-//        return greetingService;
-        return greetingServiceImpl;
+        return greetingService;
     }
 }
