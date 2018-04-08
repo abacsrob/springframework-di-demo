@@ -16,6 +16,7 @@ public class DiDemoApplication {
         ApplicationContext ctx = SpringApplication.run(DiDemoApplication.class, args);
 
         MyController c = (MyController) ctx.getBean("myController");
+        LifeCycleBeanDemo lBean = (LifeCycleBeanDemo) ctx.getBean("lifeCycleBeanDemo");
 
         System.out.println(c.helloWorld());
 
