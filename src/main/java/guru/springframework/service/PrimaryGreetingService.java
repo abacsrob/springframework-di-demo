@@ -1,4 +1,4 @@
-package guru.springframework.didemo.service;
+package guru.springframework.service;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

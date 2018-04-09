@@ -1,4 +1,4 @@
-package guru.springframework.didemo.service;
+package guru.springframework.service;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Primary
-@Profile("sr")
-public class SerbianGreetingService implements GreetingService {
+@Profile("hu")
+public class HungarianGreetingService implements GreetingService {
     @Override
     public String getGreeting() {
-        return "Pozdrav iz SerbianGreetingService-a";
+        return "Udvozlet a HungarianGreetingService-bol";
     }
 }
