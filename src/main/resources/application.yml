@@ -4,3 +4,11 @@ guru:
     password: password
     url: JMSUrl from yml
 
+---
+
+spring:
+  profiles: hu
+
+guru:
+  jms:
+    username: JMS user from yml
