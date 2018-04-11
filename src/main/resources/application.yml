@@ -1,0 +1,6 @@
+guru:
+  jms:
+    username: JMS user
+    password: password
+    url: JMSUrl from yml
+

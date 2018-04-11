@@ -1,0 +1,34 @@
+# comment
+
+name: Csaba
+
+names: # another comment
+  - Name1
+  - Name2
+  - Name3
+
+pound: "#"
+
+book:
+  author: Author
+  publisher: Publisher
+
+truth: yes
+
+truth_2: True
+
+truth_3: true
+
+false: no # No, false, FALSE
+
+str_val: "with quotes '!'"
+
+str_colon: "course: one two"
+
+new_lines: |
+  this will have new line
+  one more loooong line
+
+ignore_new_lines: >
+  this will be
+  one looong line
